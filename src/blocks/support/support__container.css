@@ -1,0 +1,11 @@
+.support__container {
+  padding-top: 74px;
+  padding-bottom: 109px;
+}
+
+@media (max-width: 601px) {
+  .support__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

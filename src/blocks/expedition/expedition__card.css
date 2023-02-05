@@ -1,0 +1,24 @@
+.expedition__card {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 612px;
+  padding: 20px 17px 30px;
+  max-height: 262px;
+}
+
+@media (max-width: 1281px) {
+  .expedition__card {
+    max-width: 800px;
+  }
+
+  .map__pointer {
+    display: none;
+  }
+}
+
+@media (max-width: 601px) {
+  .expedition__card {
+    max-height: fit-content;
+  }
+}

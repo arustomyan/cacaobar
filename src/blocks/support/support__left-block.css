@@ -1,0 +1,7 @@
+.support__left-block {
+  max-width: 526px;
+  flex: 1;
+  flex-shrink: 1;
+  min-width: 350px;
+  width: 100%;
+}

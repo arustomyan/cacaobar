@@ -1,0 +1,8 @@
+.support__right-block-content-img {
+  max-width: calc(100% + 5px);
+  border: 2.5px solid #6a2c1b;
+  border-radius: 5px;
+  margin-left: -2.5px;
+  margin-top: -2.5px;
+  margin-bottom: 20px;
+}

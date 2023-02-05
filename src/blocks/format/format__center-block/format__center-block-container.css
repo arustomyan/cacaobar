@@ -1,0 +1,10 @@
+.format__center-block-container {
+  max-width: 1414px;
+}
+
+@media (max-width: 601px) {
+  .format__center-block-container {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+}

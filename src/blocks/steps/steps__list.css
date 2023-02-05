@@ -1,0 +1,21 @@
+.steps__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  column-gap: 45px;
+  flex-wrap: wrap;
+  height: 560px;
+}
+
+@media (max-width: 1270px) {
+  .steps__list {
+    height: fit-content;
+    align-items: center;
+  }
+}
+
+@media (max-width: 601px) {
+  .steps__list {
+    margin-bottom: 20px;
+  }
+}

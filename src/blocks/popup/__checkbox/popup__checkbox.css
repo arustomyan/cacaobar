@@ -1,0 +1,17 @@
+.popup__checkbox {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* or 109% */
+
+  color: rgba(167, 166, 166, 0.8);
+  margin-left: 10px;
+}
+
+.popup__checkbox button {
+  text-decoration-line: underline;
+}

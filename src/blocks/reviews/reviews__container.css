@@ -1,0 +1,11 @@
+.reviews__container {
+  padding-top: 75px;
+  padding-bottom: 56px;
+}
+
+@media (max-width: 601px) {
+  .reviews__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

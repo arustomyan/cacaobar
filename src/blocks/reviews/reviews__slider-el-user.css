@@ -1,0 +1,19 @@
+.reviews__slider-el-user {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  margin-bottom: 18px;
+}
+
+.reviews__slider-el-img-wrap .reviews__slider-el-user {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .reviews__slider-el-content .reviews__slider-el-user {
+    display: none;
+  }
+  .reviews__slider-el-img-wrap .reviews__slider-el-user {
+    display: block;
+  }
+}

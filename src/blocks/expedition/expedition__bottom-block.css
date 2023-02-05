@@ -1,0 +1,14 @@
+.expedition__bottom-block {
+  display: flex;
+  gap: 38px;
+  max-width: 1013px;
+  position: relative;
+}
+
+@media (max-width: 601px) {
+  .expedition__bottom-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,40 @@
+.reviews__slider .slick-list {
+  margin: 0 30px 0 40px;
+  overflow: hidden;
+}
+.reviews__slider .reviews__slider-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.reviews__slider .reviews__slider-prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 5s ease;
+  cursor: pointer;
+}
+
+.reviews__slider-next:hover rect,
+.reviews__slider-prev:hover rect {
+  fill: #fab319;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 601px) {
+  .reviews__slider .reviews__slider-next {
+    display: none;
+  }
+  .reviews__slider .reviews__slider-prev {
+    display: none;
+  }
+
+  .reviews__slider .slick-list {
+    margin: 0;
+    overflow: hidden;
+  }
+}

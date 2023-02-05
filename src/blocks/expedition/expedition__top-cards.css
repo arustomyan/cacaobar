@@ -1,0 +1,12 @@
+.expedition__top-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media (max-width: 1281px) {
+  .expedition__top-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

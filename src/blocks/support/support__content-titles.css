@@ -1,0 +1,20 @@
+.support__content-titles {
+  margin-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.support__content-titles.support__content-titles-slider {
+  display: none;
+}
+
+@media (max-width: 940px) {
+  .support__left-block .support__content-titles {
+    display: none;
+  }
+
+  .support__content-titles.support__content-titles-slider {
+    display: block;
+  }
+}

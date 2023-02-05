@@ -1,0 +1,10 @@
+.popup__form-get-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  box-shadow: none;
+  max-width: 233px;
+  border-radius: 0;
+  border: none;
+}

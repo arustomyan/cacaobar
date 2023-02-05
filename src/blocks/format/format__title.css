@@ -1,0 +1,29 @@
+.format__title {
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  /* or 112% */
+
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.format__title .title_decorator:nth-child(1) p {
+  letter-spacing: -0.03em;
+  margin-left: -2px;
+}
+
+@media (max-width: 788px) {
+  .title.format__title {
+    font-size: max(22px, min(40px, 4vw));
+  }
+}
+
+@media (max-width: 601px) {
+  .title.format__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.expedition__container {
+  padding-top: 103px;
+  padding-bottom: 133px;
+}
+
+@media (max-width: 601px) {
+  .expedition__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

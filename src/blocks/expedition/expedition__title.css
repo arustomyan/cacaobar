@@ -1,0 +1,28 @@
+.expedition__title {
+  color: #016349;
+  margin-bottom: max(20px, min(70px, 4.7vw));
+}
+
+@media (max-width: 913px) {
+  .title.expedition__title {
+    font-size: max(22px, min(40px, 4.7vw));
+  }
+  .expedition__title .title_block {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .expedition__title .title_decorator-bottom + .title_block {
+    display: inline-block;
+    width: calc(100% - 140px);
+    vertical-align: middle;
+    letter-spacing: -0.5px;
+  }
+}
+
+@media (max-width: 601px) {
+  .title.expedition__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}

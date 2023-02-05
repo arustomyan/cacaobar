@@ -1,0 +1,25 @@
+.format__staff-el-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.format__staff-el01 .format__staff-el-text-wrapper {
+  margin-left: 44px;
+  margin-top: 15px;
+}
+
+.format__staff-el02 .format__staff-el-text-wrapper {
+  margin-left: 55px;
+  margin-top: -32px;
+}
+
+.format__staff-el03 .format__staff-el-text-wrapper {
+  margin-right: 60px;
+  margin-top: 15px;
+}
+
+.format__staff-el04 .format__staff-el-text-wrapper {
+  margin-right: 85px;
+  margin-top: 15px;
+}

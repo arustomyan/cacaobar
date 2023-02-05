@@ -1,0 +1,12 @@
+.footer__location {
+  display: flex;
+  gap: 6px;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .footer__location {
+    flex-direction: column;
+    align-items: center;
+  }
+}

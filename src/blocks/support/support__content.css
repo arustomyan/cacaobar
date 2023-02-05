@@ -1,0 +1,12 @@
+.support__content {
+  display: flex;
+  gap: 34px;
+}
+
+@media (max-width: 940px) {
+  .support__content {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

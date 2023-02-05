@@ -1,0 +1,12 @@
+.footer__contacts {
+  height: 100%;
+
+  color: #ffffff;
+  padding-top: 17px;
+}
+
+@media (max-width: 800px) {
+  .footer__contacts {
+    text-align: center;
+  }
+}

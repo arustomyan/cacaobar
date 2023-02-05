@@ -1,0 +1,11 @@
+.format__assortment {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 30px 32px 20px;
+}
+
+@media (max-width: 601px) {
+  .format__assortment {
+    padding: 20px 10px;
+  }
+}

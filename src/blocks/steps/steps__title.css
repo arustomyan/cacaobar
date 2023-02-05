@@ -1,0 +1,33 @@
+.steps__title {
+  max-width: 508px;
+  margin: 0 auto 42px;
+}
+
+@media (max-width: 913px) {
+  .title.steps__title {
+    font-size: max(22px, min(40px, 4.7vw));
+  }
+}
+
+@media (max-width: 601px) {
+  .title.steps__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .steps__title .title_block_top {
+    display: inline-block;
+    position: relative;
+  }
+
+  .steps__title .title_block_bottom {
+    display: inline-block;
+    /* width: 67%; */
+    /* max-width: 300px; */
+    vertical-align: middle;
+    position: relative;
+
+    top: -5px;
+    letter-spacing: -0.5px;
+  }
+}

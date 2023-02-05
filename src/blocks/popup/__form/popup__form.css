@@ -1,0 +1,26 @@
+.popup__form {
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 19px;
+  align-items: center;
+}
+
+.popup__form .input_email {
+  margin-bottom: 10px;
+  order: 2;
+}
+
+.popup__form .button {
+  order: 3;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 601px) {
+  .popup__form {
+    /* width: 260px; */
+  }
+}

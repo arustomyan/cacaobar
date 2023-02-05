@@ -1,0 +1,13 @@
+.format__staff-line {
+  position: absolute;
+  top: 295px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1922px;
+}
+
+@media (max-width: 1050px) {
+  .format__staff-line {
+    display: none;
+  }
+}

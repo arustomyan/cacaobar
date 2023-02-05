@@ -1,0 +1,14 @@
+.formula__bottom-list {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+}
+
+@media (max-width: 825px) {
+  .formula__bottom-list {
+    flex-direction: column;
+    transition: all 0.3s ease;
+    align-items: center;
+    gap: 15px;
+  }
+}

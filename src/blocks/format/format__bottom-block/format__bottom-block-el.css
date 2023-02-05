@@ -1,0 +1,8 @@
+.format__bottom-block-el {
+  width: 100%;
+  max-width: 410px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  flex: auto;
+}

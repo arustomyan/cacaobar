@@ -1,0 +1,16 @@
+.calculator__calculator-price {
+  width: 167px;
+  font-weight: 700;
+  font-size: 32px;
+  font-size: max(25px, min(32px, 3vw));
+  line-height: 22px;
+  text-align: right;
+
+  color: #016349;
+}
+
+@media (max-width: 601px) {
+  .calculator__calculator-price {
+    width: fit-content;
+  }
+}

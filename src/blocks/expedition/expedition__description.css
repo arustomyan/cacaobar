@@ -1,0 +1,9 @@
+.expedition__description {
+  max-width: 775px;
+  margin-bottom: 21px;
+  color: #312a20;
+}
+
+.expedition__description p:not(:last-child) {
+  margin-bottom: 10px;
+}

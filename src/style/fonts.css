@@ -1,0 +1,21 @@
+@font-face{
+	font-family: GothamPro;
+	font-display: swap;
+	src: url("../fonts/GothamPro-Italic.woff2") format("woff2"), url("../fonts/GothamPro-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: journalism2;
+	font-display: swap;
+	src: url("../fonts/journalism2.woff2") format("woff2"), url("../fonts/journalism2.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Montserrat;
+	font-display: swap;
+	src: url("../fonts/Montserrat-LightItalic.woff2") format("woff2"), url("../fonts/Montserrat-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}

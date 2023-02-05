@@ -1,0 +1,4 @@
+.calculator__container {
+  display: flex;
+  gap: 53px;
+}

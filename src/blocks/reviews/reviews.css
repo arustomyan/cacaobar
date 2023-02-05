@@ -1,0 +1,6 @@
+.reviews {
+  background-image: url("@images/reviews/reviews_bg.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

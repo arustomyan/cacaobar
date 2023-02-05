@@ -1,0 +1,23 @@
+.bottom-block__title {
+  font-weight: 700;
+  font-size: max(24px, min(48px, 4.8vw));
+  line-height: 115%;
+
+  color: #fff;
+  max-width: 812px;
+  margin-bottom: 25px;
+}
+
+.bottom-block__title-br {
+  display: block;
+}
+
+@media (max-width: 601px) {
+  .bottom-block__title-br {
+    display: inline;
+  }
+  .bottom-block__title {
+    letter-spacing: -0.5px;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,33 @@
+.overview__title {
+  margin-bottom: 42px;
+}
+
+@media (max-width: 913px) {
+  .title.overview__title {
+    font-size: max(22px, min(40px, 4.7vw));
+  }
+}
+
+@media (max-width: 601px) {
+  .title.overview__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .overview__title .title_decorator:first-child + .title_block {
+    display: inline-block;
+    letter-spacing: -1.2px;
+    position: relative;
+    top: -5px;
+  }
+
+  .overview__title .title_decorator-bottom + .title_block {
+    display: inline-block;
+    /* width: 67%; */
+    /* max-width: 300px; */
+    vertical-align: middle;
+    position: relative;
+
+    /* top: -5px; */
+    letter-spacing: -0.5px;
+  }
+}

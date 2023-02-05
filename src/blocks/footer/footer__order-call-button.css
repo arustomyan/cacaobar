@@ -1,0 +1,15 @@
+.footer__order-call-button {
+  font-size: 12px;
+  line-height: 149.2%;
+
+  text-align: right;
+  text-decoration: underline;
+
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .footer__order-call-button {
+    text-align: center;
+  }
+}

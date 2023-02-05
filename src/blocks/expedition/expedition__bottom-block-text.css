@@ -1,0 +1,20 @@
+.expedition__bottom-block-text {
+  display: inline-block;
+  font-size: max(14px, min(18px, 2.4vw));
+
+  line-height: 122%;
+  text-align: center;
+  color: #312a20;
+  padding: 27px 28px 26px;
+  border: 2.5px solid #016349;
+  border-radius: 5px;
+}
+
+.expedition__bottom-block-text:nth-child(1) {
+  max-width: 436px;
+}
+
+.expedition__bottom-block-text:nth-child(1) {
+  max-width: 436px;
+  border: 2.5px solid #fab319;
+}

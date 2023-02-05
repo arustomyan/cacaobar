@@ -1,0 +1,19 @@
+.reviews__slider-el {
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  width: 590px;
+  padding: 31px 31px 31px 33px;
+  height: min-content;
+  margin-right: 10px;
+}
+
+@media (max-width: 950px) {
+  .reviews__slider-el {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+  }
+}

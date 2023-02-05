@@ -1,0 +1,24 @@
+.format__assortment-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.format__assortment-list.format__assortment-list-slider {
+  display: none;
+}
+.format__assortment-list-slider .slick-list {
+  overflow: hidden;
+}
+
+.format__assortment-list-slider .format__assortment-el {
+  margin-right: 10px;
+}
+
+@media (max-width: 1325px) {
+  .format__assortment-list {
+    display: none;
+  }
+  .format__assortment-list.format__assortment-list-slider {
+    display: block;
+  }
+}

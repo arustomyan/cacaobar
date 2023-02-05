@@ -1,0 +1,6 @@
+.calculation__toddler-block {
+  margin-bottom: 72px;
+}
+.calculation__toddler-block:nth-child(2) {
+  margin-bottom: 82px;
+}

@@ -1,0 +1,10 @@
+.steps__button {
+  margin-bottom: 70px;
+  width: 273px;
+  height: 85px;
+  min-width: 223px;
+}
+
+.steps__button .button {
+  height: 100%;
+}

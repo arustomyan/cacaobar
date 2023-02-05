@@ -1,0 +1,8 @@
+.expedition__card-title {
+  font-weight: 700;
+  font-size: max(16px, min(22px, 2.4vw));
+
+  line-height: 122%;
+  color: #312a20;
+  margin-bottom: 13px;
+}

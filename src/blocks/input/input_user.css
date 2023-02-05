@@ -1,0 +1,8 @@
+.input_user {
+  background-image: url(@images/input/user_icon.svg);
+
+  background-position: 14px center;
+
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}

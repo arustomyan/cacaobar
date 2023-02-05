@@ -1,0 +1,19 @@
+.bottom-block__description {
+  font-weight: 500;
+  font-size: max(16px, min(20px, 2vw));
+  line-height: 125%;
+
+  color: #ffffff;
+  max-width: 649px;
+  margin-bottom: 30px;
+}
+
+.bottom-block__description span {
+  display: block;
+}
+
+@media (max-width: 601px) {
+  .bottom-block__description span {
+    display: inline;
+  }
+}

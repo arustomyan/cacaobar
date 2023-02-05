@@ -1,0 +1,15 @@
+.section-top {
+  background-image: url("@images/section-top/section-top_bg.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 77px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 601px) {
+  .section-top {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}

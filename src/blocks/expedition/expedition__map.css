@@ -1,0 +1,6 @@
+.expedition__map {
+  position: relative;
+  display: block;
+  margin: -10px auto;
+  z-index: 1;
+}

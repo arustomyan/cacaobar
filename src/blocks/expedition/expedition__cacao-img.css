@@ -1,0 +1,11 @@
+.expedition__cacao-img {
+  position: absolute;
+  right: -320px;
+  top: 0;
+}
+
+@media (max-width: 1193px) {
+  .expedition__cacao-img {
+    left: 757px;
+  }
+}

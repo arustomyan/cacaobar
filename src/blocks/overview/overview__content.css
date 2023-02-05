@@ -1,0 +1,14 @@
+.overview__content {
+  padding-top: 75px;
+  padding-bottom: 56px;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 703px;
+}
+
+@media (max-width: 601px) {
+  .overview__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

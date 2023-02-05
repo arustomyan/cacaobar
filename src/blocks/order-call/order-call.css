@@ -1,0 +1,44 @@
+.order-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.order-call img {
+  object-fit: contain;
+}
+
+.order-call__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-call a {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.order-call__button {
+  line-height: 128%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #fab319;
+}
+
+@media (max-width: 601px) {
+  .order-call a {
+    font-size: 18px;
+  }
+
+  .order-call img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .order-call__button {
+    font-size: 14px;
+  }
+}

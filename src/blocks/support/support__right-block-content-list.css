@@ -1,0 +1,14 @@
+.support__right-block-content-list {
+  margin-left: 64px;
+  max-width: 592px;
+}
+.support__right-block-content-list:last-child {
+  max-width: 550px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 940px) {
+  .support__right-block-content-list {
+    margin-left: max(10px, min(64px, 2vw));
+  }
+}

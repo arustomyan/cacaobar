@@ -1,0 +1,10 @@
+.format__bottom-block-el-text {
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  color: #312a20;
+}
+
+.format__bottom-block-el-sp .format__bottom-block-el-text {
+  color: #fff;
+}

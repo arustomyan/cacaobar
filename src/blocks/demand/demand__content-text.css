@@ -1,0 +1,13 @@
+.demand__content-text {
+  font-size: max(16px, min(19px, 2.4vw));
+
+  line-height: 116%;
+  color: #312a20;
+  margin-bottom: max(10px, min(25px, 2vw));
+}
+
+@media (max-width: 820px) {
+  .demand__content-text br {
+    display: none;
+  }
+}

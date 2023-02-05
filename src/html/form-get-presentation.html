@@ -1,0 +1,69 @@
+<div class="form-get-presentation @@section__form-get-presentation">
+  @@if (section !== "popup") {
+  <h2 class="form-get-presentation__title">
+    <span class="text_green">Получите полную информацию о франшизе: </span
+    >бизнес-план, презентацию, финансовую модель
+  </h2>
+  }
+
+  <form
+    class="form-get-presentation__form @@section__form @@input-form"
+    novalidate
+  >
+    <input
+      class="input input_phone"
+      type="tel"
+      name="phone"
+      placeholder="+7 (___) ___-___-__"
+    />
+
+    @@if (input === "city") {
+    <input
+      class="input input_city"
+      type="text"
+      name="text"
+      placeholder="Ростов-на-Дону"
+    />
+
+    } @@if (input === "email") {
+    <input
+      class="input input_email"
+      type="email"
+      name="email"
+      placeholder="bestpartner@cacaobar.ru"
+    />
+    }
+
+    <input
+      class="input dd input_user"
+      type="text "
+      name="name"
+      placeholder="Александр Сусакин"
+    />
+
+    <input type="text" name="section-name" value="Открытая" hidden />
+    <input
+      type="text"
+      name="section-btn-text"
+      value="Получить информацию"
+      hidden
+    />
+    <input
+      type="text"
+      name="section-name-text"
+      value="Получите полную информацию о франшизе"
+      hidden
+    />
+
+    <button class="button" type="submit">Получить информацию</button>
+  </form>
+  <span class="form-get-presentation__checkbox @@section__checkbox">
+    <span class=""
+      >Я подтверждаю, что ознакомлен и даю согласие на обработку персональных
+      данных на условиях и для целей, определяемых
+      <button class="button__policy" type="button">
+        Политикой конфиденциальности
+      </button></span
+    >
+  </span>
+</div>

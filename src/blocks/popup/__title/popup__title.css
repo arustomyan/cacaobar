@@ -1,0 +1,39 @@
+.popup__title {
+  max-width: 349px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 115%;
+  color: #213263;
+}
+
+/* @media (max-width: 950px) {
+  .popup__title {
+    text-align: center;
+  }
+  .popup__title br {
+    display: none;
+  }
+} */
+
+.popup__leave-title,
+.popup__order-call-title {
+  max-width: 359px;
+}
+
+.popup__order-call-title span {
+  display: block;
+}
+
+@media (max-width: 601px) {
+  .popup_leave .popup__title {
+    font-size: 14px;
+  }
+
+  .popup__title {
+    font-size: 16px;
+  }
+
+  .popup__order-call-title span {
+    display: inline;
+  }
+}

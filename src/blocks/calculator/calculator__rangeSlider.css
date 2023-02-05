@@ -1,0 +1,96 @@
+.irs-single {
+  display: none;
+}
+
+.irs--flat .irs-bar {
+  background: #fab319;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.irs--flat .irs-handle {
+  width: 16px;
+  height: 16px;
+  background: #016349;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.irs--flat .irs-handle > i:first-child {
+  display: none;
+}
+
+.irs--flat .irs-line {
+  height: 10px;
+  background-color: #fff;
+}
+
+.irs--flat .irs-grid-text {
+  font-weight: 400;
+  font-size: max(16px, min(19px, 2vw));
+  line-height: 22px;
+  text-align: center;
+  color: #240e06;
+  padding: 0;
+}
+
+.irs-grid-pol {
+  background: #312a20;
+  border-radius: 5px;
+}
+
+.irs-grid {
+  /* height: 20px; */
+  height: 36px;
+}
+
+.irs--flat.irs-with-grid {
+  /* height: 60px; */
+  height: 80px;
+}
+
+.irs--flat .irs-grid-pol {
+  background: #312a20;
+}
+
+.irs-grid-pol.small {
+  display: none;
+}
+
+.calculator__calculator-title {
+  /* margin-bottom: 24px; */
+}
+
+.irs--flat .irs-line {
+  top: 27px;
+}
+
+.irs--flat .irs-bar {
+  top: 27px;
+}
+
+.irs--flat .irs-handle {
+  /* top: 22px; */
+  top: 24px;
+}
+
+.irs-with-grid .irs-grid {
+  width: 100% !important;
+}
+.js-irs-0 > span:nth-child(2) {
+  width: 100% !important;
+  left: 0 !important;
+}
+.js-irs-1 > span:nth-child(2) {
+  width: 100% !important;
+  left: 0 !important;
+}
+
+span:nth-child(2) > span:nth-child(2) {
+  margin-left: 0 !important;
+}
+
+span.irs-grid-text:last-child {
+  margin-left: 0 !important;
+  transform: translateX(-100%);
+}

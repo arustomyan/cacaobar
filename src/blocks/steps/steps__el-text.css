@@ -1,0 +1,16 @@
+.steps__el-text {
+  max-width: 380px;
+  font-size: max(16px, min(18px, 2.4vw));
+}
+.steps__el-text span {
+  display: block;
+}
+
+@media (max-width: 601px) {
+  .steps__el-text {
+    text-align: center;
+  }
+  .steps__el-text span {
+    display: inline;
+  }
+}

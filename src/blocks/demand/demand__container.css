@@ -1,0 +1,11 @@
+.demand__container {
+  padding-top: 77px;
+  padding-bottom: 47px;
+}
+
+@media (max-width: 601px) {
+  .demand__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,8 @@
+.input_city {
+  background-image: url(@images/input/city_icon.svg);
+
+  background-position: 15px center;
+
+  background-repeat: no-repeat;
+  padding-left: 37px;
+}

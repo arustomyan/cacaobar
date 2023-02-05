@@ -1,0 +1,11 @@
+.formula__container {
+  padding-bottom: 75px;
+  padding-top: 132px;
+}
+
+@media (max-width: 601px) {
+  .formula__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,13 @@
+.header {
+  background-color: #240e06;
+  min-height: 121px;
+  padding-top: 23px;
+  color: #fff;
+}
+
+@media (max-width: 601px) {
+  .header {
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+}

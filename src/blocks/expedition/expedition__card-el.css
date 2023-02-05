@@ -1,0 +1,51 @@
+.expedition__card-el {
+  display: flex;
+  gap: 9px;
+  max-width: 284px;
+
+  font-size: max(14px, min(17px, 2.4vw));
+  line-height: 129%;
+
+  color: #312a20;
+}
+.expedition__card-el span {
+  display: block;
+}
+
+.expedition__card-el::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #016349;
+  flex-shrink: 0;
+  position: relative;
+  top: 7px;
+}
+
+.expedition__card-central-america .expedition__card-el::before {
+  background-color: #6a2c1b;
+}
+.expedition__card-asia .expedition__card-el::before {
+  background-color: #016349;
+}
+.expedition__card-south-america .expedition__card-el::before {
+  background-color: #c30000;
+}
+.expedition__card-africa .expedition__card-el::before {
+  background-color: #fab319;
+}
+
+@media (max-width: 1281px) {
+  .expedition__card-el {
+    width: 43%;
+  }
+}
+
+@media (max-width: 601px) {
+  .expedition__card-el {
+    max-width: 284px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+<header class="header">
+  <div
+    class="container header__container wow animate__animated animate__fadeInDown"
+  >
+    <div class="header__wrapper">
+      @@if(page === "index"){
+      <a class="logo section-top__logo" href="#">
+        <img src="@images/logo/logo.svg" class="logo__img" alt="logo" />
+      </a>
+      } @@if(page === "thanks"){
+      <a class="logo section-top__logo" href="../index.html">
+        <img src="@images/logo/logo.svg" class="logo__img" alt="logo" />
+      </a>
+      }
+      <span class="header__text">
+        Франшиза нового уникального формата кофейни, вдохновлённая идеей
+        прививать и внедрять в России культуру потребления настоящего какао
+      </span>
+    </div>
+    <div class="order-call header__contact">
+      <img
+        src="@images/order-call/phone-icon.png"
+        class="order-call__img"
+        alt=""
+      />
+      <div class="order-call__block">
+        <a href="tel:+79613053914"> 8-961-305-39-14 </a>
+
+        @@if(page === "index"){
+        <button class="order-call__button">заказать звонок</button>
+        } @@if(page === "thanks"){
+        <p class="order-call__button">позвоните сейчас чтобы не ждать звонка</p>
+        }
+      </div>
+    </div>
+  </div>
+</header>

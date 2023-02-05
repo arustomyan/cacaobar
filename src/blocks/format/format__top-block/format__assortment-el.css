@@ -1,0 +1,11 @@
+.format__assortment-el {
+  display: flex;
+  flex-direction: column;
+  max-width: 235px;
+}
+
+@media (max-width: 601px) {
+  .format__assortment-el {
+    max-width: 100%;
+  }
+}

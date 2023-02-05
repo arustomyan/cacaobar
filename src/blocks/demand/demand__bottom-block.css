@@ -1,0 +1,18 @@
+.demand__bottom-block {
+  background: #ffffff;
+  box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  max-width: 525px;
+  padding: 23px 26px 22px;
+  display: flex;
+  gap: 17px;
+  align-items: flex-start;
+  font-size: max(16px, min(18px, 2.4vw));
+  line-height: 119%;
+}
+
+@media (max-width: 601px) {
+  .demand__bottom-block {
+    padding: 20px 10px;
+  }
+}

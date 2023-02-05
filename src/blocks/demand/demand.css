@@ -1,0 +1,14 @@
+.demand {
+  background-image: url("@images/demand/demand_bg.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+@media (max-width: 1920px) {
+  .demand {
+    background-position: 0% 0;
+  }
+}

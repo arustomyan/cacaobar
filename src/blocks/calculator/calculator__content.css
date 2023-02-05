@@ -1,0 +1,14 @@
+.calculator__content {
+  padding-top: 106px;
+  padding-bottom: 60px;
+  width: 100%;
+  max-width: 702px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 601px) {
+  .calculator__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

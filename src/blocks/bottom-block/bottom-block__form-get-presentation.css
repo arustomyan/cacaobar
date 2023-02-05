@@ -1,0 +1,29 @@
+.bottom-block__form-get-presentation {
+  position: relative;
+  top: 35px;
+  margin-bottom: -58px;
+}
+
+.bottom-block__form-get-presentation .input {
+  max-width: 250px;
+}
+
+.bottom-block__form-get-presentation .button {
+  max-width: 247px;
+}
+
+@media (max-width: 1090px) {
+  .bottom-block__form-get-presentation .input {
+    max-width: 350px;
+  }
+
+  .bottom-block__form-get-presentation .button {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 601px) {
+  .section-top__form-get-presentation {
+    display: none;
+  }
+}

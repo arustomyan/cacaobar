@@ -1,0 +1,10 @@
+.format__bottom-block-list {
+  height: 547px;
+  display: flex;
+  column-gap: 25px;
+  row-gap: 21px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: auto;
+  margin-bottom: 56px;
+}

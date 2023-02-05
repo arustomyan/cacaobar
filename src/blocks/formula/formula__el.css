@@ -1,0 +1,47 @@
+.formula__el {
+  max-width: 435px;
+}
+
+.formula__el:nth-child(1) {
+  margin-left: 86px;
+  margin-bottom: 33px;
+}
+.formula__el:nth-child(2) {
+  margin-left: 427px;
+  margin-bottom: 14px;
+}
+.formula__el:nth-child(3) {
+  margin-left: 351px;
+  margin-bottom: 5px;
+}
+.formula__el:nth-child(4) {
+  margin-left: 116px;
+}
+
+@media (max-width: 825px) {
+  .formula__list > .formula__el {
+    margin: 0 auto;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  .formula__list > .formula__el:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .formula__list > .formula__el:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 825px) {
+  .formula__list > .formula__el {
+    margin: 0 auto;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  .formula__list > .formula__el:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .formula__list > .formula__el:last-child {
+    margin-bottom: 20px;
+  }
+}

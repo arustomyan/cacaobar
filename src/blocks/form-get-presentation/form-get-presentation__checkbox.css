@@ -1,0 +1,35 @@
+.form-get-presentation__checkbox {
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 145%;
+
+  text-align: center;
+
+  color: #a7a6a6;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.form-get-presentation__checkbox > button {
+  text-decoration: underline;
+}
+
+.form-get-presentation__checkbox::before {
+  content: url(@images/input/checkbox_icon.svg);
+  position: relative;
+  height: 19px;
+  width: 19px;
+  line-height: 19px;
+  bottom: -5px;
+  display: inline-block;
+}
+
+/* @media (max-width: 601px) {
+  .form-get-presentation__checkbox {
+    text-align: left;
+  }
+} */

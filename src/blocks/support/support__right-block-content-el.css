@@ -1,0 +1,14 @@
+.support__right-block-content-el {
+  font-size: 17px;
+  line-height: 129%;
+  color: #312a20;
+  display: flex;
+  gap: 10px;
+}
+.support__right-block-content-el span {
+  display: block;
+}
+
+.support__right-block-content-el:not(:last-child) {
+  margin-bottom: 10px;
+}

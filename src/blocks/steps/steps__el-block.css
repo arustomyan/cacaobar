@@ -1,0 +1,11 @@
+.steps__el-block {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+@media (max-width: 601px) {
+  .steps__el-block {
+    order: 1;
+  }
+}

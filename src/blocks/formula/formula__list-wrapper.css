@@ -1,0 +1,11 @@
+.formula__list-wrapper {
+  margin-left: 256px;
+  margin-left: max(0.1px, min(256px, 13vw));
+}
+
+@media (max-width: 1180px) {
+  .formula__list-wrapper {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+  }
+}

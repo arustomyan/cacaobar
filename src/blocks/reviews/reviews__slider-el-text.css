@@ -1,0 +1,5 @@
+.reviews__slider-el-text {
+  font-size: max(14px, min(17px, 2.4vw));
+
+  line-height: 129%;
+}

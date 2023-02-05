@@ -1,0 +1,8 @@
+.footer__order-call a {
+  /* margin-bottom: 60px; */
+}
+
+.footer__order-call {
+  align-items: flex-start;
+  gap: 8px;
+}

@@ -1,0 +1,11 @@
+.formula__content {
+  position: relative;
+  margin-top: 94px;
+  margin-bottom: 22px;
+}
+
+@media (max-width: 1180px) {
+  .formula__content {
+    margin-top: 20px;
+  }
+}

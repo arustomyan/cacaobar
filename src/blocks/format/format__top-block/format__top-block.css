@@ -1,0 +1,15 @@
+.format__top-block {
+  background-image: url("@images/format/format-bg.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 91px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 601px) {
+  .format__top-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

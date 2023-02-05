@@ -1,0 +1,13 @@
+.formula__founder {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+
+  text-align: right;
+
+  color: #312a20;
+}

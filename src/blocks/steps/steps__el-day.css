@@ -1,0 +1,17 @@
+.steps__el-day {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: right;
+
+  color: #016349;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+@media (max-width: 601px) {
+  .steps__el-day {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+}

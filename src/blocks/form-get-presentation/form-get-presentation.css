@@ -1,0 +1,18 @@
+.form-get-presentation {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 190px;
+  padding: 32px 10px 32px;
+  z-index: 1;
+
+  background: #ffffff;
+  border: 2px solid #016349;
+  border-radius: 5px;
+}
+
+/* @media (max-width: 1250px) {
+  .form-get-presentation__form {
+    flex-direction: column;
+    align-items: center;
+  }
+} */

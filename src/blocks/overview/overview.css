@@ -1,0 +1,6 @@
+.overview {
+  background-image: url("@images/overview/overviewBG.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

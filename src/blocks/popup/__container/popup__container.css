@@ -1,0 +1,31 @@
+.popup__container {
+  background: #ffffff;
+  border: 2px solid #016349;
+  border-radius: 8px;
+  max-width: 724px;
+  width: calc(100% - 40px);
+  min-height: 403px;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 43px;
+}
+
+/* @media (max-width: 950px) {
+  .popup__container {
+    height: fit-content;
+
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 50px 20px 20px;
+  }
+} */
+
+@media (max-width: 601px) {
+  .popup__container {
+    width: 300px;
+    padding: 30px 10px;
+  }
+}

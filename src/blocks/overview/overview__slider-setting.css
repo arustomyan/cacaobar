@@ -1,0 +1,19 @@
+.overview__slider .slick-list {
+  background-color: #fff;
+  margin: 0 16px 0 30px;
+  overflow: hidden;
+}
+
+.overview__slider .reviews__slider-next {
+  position: absolute;
+  top: 3px;
+  right: 25px;
+  transform: translateY(-100%);
+}
+
+.overview__slider .reviews__slider-prev {
+  position: absolute;
+  top: 3px;
+  transform: translateY(-100%);
+  right: 65px;
+}

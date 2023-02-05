@@ -1,0 +1,16 @@
+.expedition__card-description {
+  color: #016349;
+}
+
+.expedition__card-central-america .expedition__card-description {
+  color: #6a2c1b;
+}
+.expedition__card-asia .expedition__card-description {
+  color: #016349;
+}
+.expedition__card-south-america .expedition__card-description {
+  color: #c30000;
+}
+.expedition__card-africa .expedition__card-description {
+  color: #fab319;
+}

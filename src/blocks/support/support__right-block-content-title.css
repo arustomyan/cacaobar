@@ -1,0 +1,13 @@
+.support__right-block-content-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  margin-left: 64px;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 940px) {
+  .support__right-block-content-title {
+    margin-left: max(10px, min(64px, 2vw));
+  }
+}

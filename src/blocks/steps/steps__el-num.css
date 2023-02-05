@@ -1,0 +1,23 @@
+.steps__el-num {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fab319;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 88%;
+
+  flex-shrink: 0;
+}
+
+@media (max-width: 601px) {
+  .steps__el-num {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}

@@ -1,0 +1,7 @@
+.calculator__calculator-title {
+  font-weight: 700;
+  font-size: max(18px, min(22px, 3vw));
+  line-height: 100%;
+  text-align: right;
+  color: #312a20;
+}

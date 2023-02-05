@@ -1,0 +1,9 @@
+.format__bottom-block-el-sp {
+  background-color: transparent;
+  border: 3.5px solid #016349;
+  border-radius: 5px;
+  color: #fff;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}

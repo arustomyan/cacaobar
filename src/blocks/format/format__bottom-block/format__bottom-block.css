@@ -1,0 +1,15 @@
+.format__bottom-block {
+  background-image: url("@images/format/bottom-bg.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 84px;
+}
+
+@media (max-width: 601px) {
+  .format__bottom-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+.formula__title {
+  color: #016349;
+}
+
+@media (max-width: 1000px) {
+  .formula__title .title_block_top {
+    position: relative;
+  }
+}
+
+@media (max-width: 601px) {
+  .title.formula__title {
+    font-size: 22px;
+    top: -5px;
+  }
+}

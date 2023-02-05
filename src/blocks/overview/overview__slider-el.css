@@ -1,0 +1,11 @@
+.overview__slider-el {
+  margin-right: 14px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.overview__slider-el img {
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}

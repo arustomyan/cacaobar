@@ -1,0 +1,5 @@
+.formula__list-wrapper > .formula__elem-img {
+  display: block;
+  position: absolute;
+  top: 17px;
+}
